@@ -1,33 +1,32 @@
 <h1>OPT GUIDES!!!</h1>
-<br><h2>Topic: Getting Opt to PATH</h2>
 <br>
-Hello, you might have been here from the README. And you need to setup PATH first.
+<h2>Topic: Getting Opt to PATH</h2>
 <br>
-<h1>Setting up PATH of Opt</h1>
+<p>Hello! You might have come here from the README. Before using Opt, you need to set up PATH first.</p>
 <br>
-Type "Enviroment" and click on the first resule, should be Enviroment Variables
+<h1>Setting up PATH for Opt</h1>
 <br>
-Then, just get to the variables, get PATH, edit it, add your Opt path! <i>(If you used the installer, for default, it's "C:\Program Files (x86)\OXOP, Inc\Opt\" but you can change it)</i>
-<h1>guide on changing path by <h1>ChatGPT:</h1></h1>
+<p>Type "Environment" in the Windows search and click on the first result: <b>Environment Variables</b>.</p>
+<p>Then, under User or System variables, find <b>Path</b>, click <b>Edit</b>, and add your Opt path.</p>
+<p><i>If you used the installer, the default path is "C:\Program Files (x86)\OXOP, Inc\Opt\", but you can change it.</i></p>
 <br>
-## Step 1: Open Environment Variables
-1. Press `Win + S` and type **Environment Variables**.
-2. Click **Edit the system environment variables**.
-3. In the **System Properties** window, click the **Environment Variables** button.
-1. Under **User variables** (for your account) or **System variables** (for all users), find `Path` and select it.
-2. Click **Edit**.
-## Step 3: Add a New Path
-1. Click **New**.
-2. Type or paste the folder path you want to add.  
-   Example: `C:\Program Files\MyTool\bin`
-3. Click **OK**.
-## Step 4: Remove or Edit Existing Paths
-1. Select a path and click **Edit** to change it.  
-2. Click **Delete** to remove it.
-## Step 5: Save Changes
-1. Click **OK** to close each window.
-2. Restart any open command prompt or application to apply changes.
-## Tips
-- Use **absolute paths**, not relative paths.
-- Separate multiple paths by **semicolons** if editing manually.
-- Be careful not to delete existing system paths, or some programs may stop working.
+<h1>Guide on Changing PATH (by ChatGPT)</h1>
+<br>
+<ol>
+<li>Press <code>Win + S</code> and type <b>Environment Variables</b>.</li>
+<li>Click <b>Edit the system environment variables</b>.</li>
+<li>In the System Properties window, click the <b>Environment Variables</b> button.</li>
+<li>Under User variables (for your account) or System variables (for all users), find <code>Path</code> and select it.</li>
+<li>Click <b>Edit</b>.</li>
+<li>Click <b>New</b> and type or paste the folder path you want to add.  
+    Example: <code>C:\Program Files\MyTool\bin</code></li>
+<li>Click <b>OK</b> to save changes.</li>
+<li>Restart any open Command Prompt or application to apply changes.</li>
+</ol>
+<br>
+<h2>Tips</h2>
+<ul>
+<li>Use <b>absolute paths</b>, not relative paths.</li>
+<li>Separate multiple paths by <b>semicolons</b> if editing manually.</li>
+<li>Be careful not to delete existing system paths, or some programs may stop working.</li>
+</ul>
