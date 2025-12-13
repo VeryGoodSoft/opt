@@ -6,4 +6,4 @@ INFO: THE PATH IS NOT AUTOMATICLY SETUP! GUIDE IS AT https://github.com/BARTEKK2
 <br>
 # Windows SmartScreen shows it's a malware! Is this actually it?
 <br>
-No, i will make it open source soon.
+No, i will make it open source soon (now actually).
