@@ -7,3 +7,7 @@ INFO: THE PATH IS NOT AUTOMATICLY SETUP! GUIDE IS AT https://github.com/VeryGood
 # Windows SmartScreen shows it's a malware! Is this actually it?
 <br>
 No, i will make it open source soon (now actually).
+<br>
+# Requesting Packages
+<br>
+You can request tham at https://github.com/VeryGoodSoft/opt-package-requests.git
