@@ -8,7 +8,7 @@ INFO: THE PATH IS NOT AUTOMATICLY SETUP! GUIDE IS AT https://github.com/VeryGood
    
    Windows will alert you because I'm not spending more than $400 a year on a code signing certificate for a free side project. Hell no, that's more than 1400 PLN!
    
-   All of the code is open source. Don't use it or go over it yourself. Your decision.
+   All of the code is open source. Don't use it if you don't trust me.
    
    To launch, select Properties → Unblock → OK after performing a right-click on the executable.
 <br>
