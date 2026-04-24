@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
 }
 
-header, main, footer {
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -18,34 +18,61 @@ header {
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     margin-bottom: 10px;
 }
 
-h2 {
-    margin-top: 30px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+.subtitle {
+    font-size: 1.1rem;
+    color: #555;
 }
 
-section {
-    background: #ffffff;
-    padding: 20px;
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 6px;
+}
+
+.card {
+    background: #fff;
+    padding: 22px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
 }
 
 a {
     color: #0077ff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s ease;
+    transition: 0.2s ease;
 }
 
 a:hover {
     color: #004999;
-    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: #0077ff;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.button:hover {
+    background: #005fcc;
+    transform: scale(1.03);
 }
 
 footer {
